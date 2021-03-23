@@ -74,5 +74,5 @@ Avoid technical jargon and assume little-to-no technical knowledge. This lets yo
 
 Provide non-technical explanations instead of cryptic error messages. If something goes wrong, a simplified explanation of what happened and how to fix it should be presented.
 
-For more information, see [Writing Style](design-philosophy.md#writing-style).
+For more information, see [Writing Style](text.md#writing-style).
 
