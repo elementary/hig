@@ -11,15 +11,15 @@ Visible design is a large part of the user experience, but so is the user's work
 
 ### Required Configuration <a id="required-configuration"></a>
 
-When a user first launches an app, they should be able to get down to business as quickly as possible. If configuration is not absolutely required for the first use, they should not be required to configure anything. If configuration is required, they should be presented with a clean and simple [welcome screen](user-workflow.md#welcome-screen) within the app. Avoid separate configuration dialogs when launching.
+When a user first launches an app, they should be able to get down to business as quickly as possible. If configuration is not absolutely required for the first use, they should not be required to configure anything. If configuration is required, they should be presented with a clean and simple [welcome screen](./#welcome-screen) within the app. Avoid separate configuration dialogs when launching.
 
 ### Speed of Launch <a id="speed-of-launch"></a>
 
-Your app's first launch is the user's first impression of your app; it's a chance to really show off its design and speed. If your app has to configure things in the background before visibly launching, it gives the user the impression that the app is slow or will take a long time to start up. Instead, focus on making the application window appear fast and ready to be used, then do any background tasks behind the scenes. If the background task is blocking \(e.g. the user is unable to perform certain tasks until it's complete\), show some type of indication that a background process is happening and make the blocked user interface items insensitive \(see: [Widget Concepts](user-workflow.md#widget-concepts)\).
+Your app's first launch is the user's first impression of your app; it's a chance to really show off its design and speed. If your app has to configure things in the background before visibly launching, it gives the user the impression that the app is slow or will take a long time to start up. Instead, focus on making the application window appear fast and ready to be used, then do any background tasks behind the scenes. If the background task is blocking \(e.g. the user is unable to perform certain tasks until it's complete\), show some type of indication that a background process is happening and make the blocked user interface items insensitive \(see: [Widget Concepts](./#widget-concepts)\).
 
 ### Welcoming the User <a id="welcoming-the-user"></a>
 
-If there is no content to show the user, provide actions they can act upon by using a simple [welcome screen](user-workflow.md#welcome-screen). Let them open a document, add an account, import a CD, or whatever makes sense in the context of the app.
+If there is no content to show the user, provide actions they can act upon by using a simple [welcome screen](./#welcome-screen). Let them open a document, add an account, import a CD, or whatever makes sense in the context of the app.
 
 ### Resetting the App <a id="resetting-the-app"></a>
 
@@ -35,7 +35,7 @@ As has been said before, speed, especially when launching an app, is very import
 
 ### Obviousness <a id="obviousness"></a>
 
-When a user launches your app, they should know exactly what to do next. This is achieved by following the other interface guidelines \(ensuring your app is consistent with other apps\) and by offering up explicit actions from the get go. If the app typically displays "items," such as songs or emails, let the user get at those items by displaying them when the app opens. If there are no previously-opened items, you should offer to open or create a new item \(such as a document\) by using a [welcome screen](user-workflow.md#welcome-screen).
+When a user launches your app, they should know exactly what to do next. This is achieved by following the other interface guidelines \(ensuring your app is consistent with other apps\) and by offering up explicit actions from the get go. If the app typically displays "items," such as songs or emails, let the user get at those items by displaying them when the app opens. If there are no previously-opened items, you should offer to open or create a new item \(such as a document\) by using a [welcome screen](./#welcome-screen).
 
 ### State <a id="state"></a>
 
@@ -45,7 +45,7 @@ If the user has previously used your app, it's typically best to restore the sta
 
 Sometimes a user will perform an action which could possibly be destructive or traditionally irreversible. Rather than present the user with a warning, apps should let the user undo the action for an appropriate amount of time. Some prime examples of when this behavior is useful are:
 
-* **Closing an app**. Rather than warning the user, automatically save their work and the app's state so they can return exactly where they left off. See [Closing](user-workflow.md#closing).
+* **Closing an app**. Rather than warning the user, automatically save their work and the app's state so they can return exactly where they left off. See [Closing](./#closing).
 * **Deleting an item**. Instead of asking the user if they are sure, make the item "disappear" from the app, but provide an easy and intuitive way to undo the delete.
 * **Sending an email**. Rather than asking the user if they want to send an email, let them undo or edit the message a short time after "sending."
 * **Editing a photo**. Instead of asking the user if they want to destructively apply an edit, let them undo the edit and always keep the original backed up.
@@ -76,17 +76,5 @@ Because of the strong convention of saved state, elementary OS does not expose o
 
 ### Closing the App Window <a id="closing-the-app-window"></a>
 
-Apps should never minimize instead of closing, as that puts the app window into a state that is foreign to users of elementary OS. Instead, windows should close or hide and re-open with a [saved state](user-workflow.md#saving-state). Any ongoing or [background tasks](user-workflow.md#background-tasks) should be completed soon after the window is closed, then the app should quit so as to not use unnecessary resources.
-
-## Background Tasks <a id="background-tasks"></a>
-
-If it makes sense to continue a process in the background \(such as downloading/transferring, playing music, or executing a terminal command\) the app back-end should continue with the task and close when the task is finished. If it's not immediately apparent that the process has completed \(as with the file download/transfer or terminal command\), the app may show a notification informing the user that the process has completed. If it is apparent, as with the music, no notification is necessary.
-
-If an app performs repeat background tasks \(such as a mail client fetching mail\), the background tasks should be completed by a daemon and not rely on any window being open.
-
-### Re-Opening the App Window <a id="re-opening-the-app-window"></a>
-
-If the user re-opens an app while a background process is still executing, the app should be exactly where it would be if the window had been open the whole time. For example, the terminal should show any terminal output, the music player should be on the same page it was when closed, and the browser should come back to the page it was on previously. For more details, see the discussion of app state on a [Normal Launch](user-workflow.md#normal-launch).
-
-See also: [That's It, We're Quitting](https://blog.ubuntu.com/2011/03/07/quit) by Matthew Paul Thomas
+Apps should never minimize instead of closing, as that puts the app window into a state that is foreign to users of elementary OS. Instead, windows should close or hide and re-open with a [saved state](./#saving-state). Any ongoing or [background tasks](./#background-tasks) should be completed soon after the window is closed, then the app should quit so as to not use unnecessary resources.
 
