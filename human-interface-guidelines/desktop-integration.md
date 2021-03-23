@@ -37,7 +37,7 @@ Name=Dexter
 
 ### GenericName <a id="genericname"></a>
 
-If your app is easily categorized or described with a generic name, you should use that for the GenericName attribute in your app's .desktop file. If you can say, "My app is a\(n\) _**\_\_**_," then whatever fits in that blank could be the generic name. For example, Quilter is a markdown editor, so its generic name is "Markdown Editor".
+If your app is easily categorized or described with a generic name, you should use that for the GenericName attribute in your app's .desktop file. If you can say, "My app is a\(n\) _\*\*\_\_\*\*\_," then whatever fits in that blank could be the generic name. For example, Quilter is a markdown editor, so its generic name is "Markdown Editor".
 
 You should not include articles \(the, a, an\) or the words "program," "app," or "application" in your app's generic name.
 

@@ -1,6 +1,10 @@
 # Design Philosophy
 
-The elementary OS HIG isn't just about a set of concrete rules; it's meant to be flexible and extensible. As such, this very first portion of the guideline is all about the guiding philosophy we employ. For a quick crash course, we like ["The User is Drunk" on YouTube](https://www.youtube.com/watch?v=r2CbbBLVaPk):
+The elementary OS HIG isn't just about a set of concrete rules; it's meant to be flexible and extensible. As such, this very first portion of the guideline is all about the guiding philosophy we employ. 
+
+{% hint style="info" %}
+For a quick design crash course, we like ["The User is Drunk" on YouTube](https://www.youtube.com/watch?v=r2CbbBLVaPk):
+{% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=r2CbbBLVaPk" caption="“The User is Drunk”" %}
 
@@ -13,8 +17,8 @@ Before we get into all the things that make up elementary OS apps, there is a cl
 
 See also:
 
-1. [Design Is Not Veneer, Aral Balkan](https://ar.al/notes/design-is-not-veneer/)
-2. [Design is Not Subjective, Jeff Law](https://web.archive.org/web/20181208131017/http://www.jefflaw.ca/design-is-not-subjective/)
+1. [Design Is Not Veneer](https://ar.al/notes/design-is-not-veneer/) by Aral Balkan
+2. [Design is Not Subjective](https://web.archive.org/web/20181208131017/http://www.jefflaw.ca/design-is-not-subjective/) by Jeff Law
 
 ## Concision <a id="concision"></a>
 
@@ -32,19 +36,19 @@ It's often very tempting to continue adding more and more features into your app
 
 ### Think in Modules <a id="think-in-modules"></a>
 
-Build small, modular apps that communicate well. elementary OS apps avoid feature overlap and make their functions available to other apps either through [Contractor](design-philosophy.md#contractor) or over [D-Bus](https://www.freedesktop.org/wiki/Software/dbus/). This both saves you time as a developer \(by other apps making their functions available to you\), and is a courteous gesture towards other developers \(by making your app's functions available to them\).
+Build small, modular apps that communicate well. elementary OS apps avoid feature overlap and make their functions available to other apps either through [Contractor](desktop-integration.md#contractor) or over [D-Bus](https://www.freedesktop.org/wiki/Software/dbus/). This both saves you time as a developer \(by other apps making their functions available to you\), and is a courteous gesture towards other developers \(by making your app's functions available to them\).
 
 ## Accessible Configuration <a id="accessible-configuration"></a>
 
 Providing settings can be a way to make sure an app is accessible to a wider set of users with special needs, but it can also be an easy way out of making design decisions about an app's behavior. Just like with problems of feature bloat, settings mean more code, more bugs, more testing, more documentation, and more complexity. When considering adding options to your app, try to strike a balance of making your app more accessible without pushing design work onto your users.
 
-### Build for the "Out of The Box" Experience <a id="build-for-the-out-of-the-box-experience"></a>
+### Build for the “Out of the Box” Experience <a id="build-for-the-out-of-the-box-experience"></a>
 
 Design with sane defaults in mind. elementary OS apps put strong emphasis on the out of the box experience. If your app has to be configured before a user is comfortable using it, they may not take the time to configure it at all and simply use another app instead.
 
 ### Ask the Operating System <a id="ask-the-operating-system"></a>
 
-Get as much information automatically as possible. Instead of asking a user for their name or their location, ask the system for this information. This cuts down on the amount of things a user has to do and makes your app look intelligent and integrated.
+Get as much information automatically as possible. Instead of asking a user for their name or their location, ask the system for this information. This cuts down on the amount of things a user has to do and makes your app feel more intelligent and integrated.
 
 ### Is It Really About Accessibility? <a id="is-it-really-about-a11y"></a>
 
@@ -66,13 +70,17 @@ See Also:
 
 Most users don't want to read through help docs before they can use your app. Instead, they expect that your app will be intuitive and simple for them to understand without assistance.
 
-[![Manuals](https://imgs.xkcd.com/comics/manuals.png)](https://xkcd.com/1343/)
+![&#x201C;Manuals&#x201D; from XKCD](https://imgs.xkcd.com/comics/manuals.png)
 
 ### Use Understandable Copy <a id="use-understandable-copy"></a>
 
-Avoid technical jargon and assume little-to-no technical knowledge. This lets your app be "self-documenting."
+Avoid technical jargon and assume little-to-no technical knowledge. This lets your app be “self-documenting.”
 
 Provide non-technical explanations instead of cryptic error messages. If something goes wrong, a simplified explanation of what happened and how to fix it should be presented.
 
-For more information, see [Writing Style](text.md#writing-style).
+{% hint style="info" %}
+For more information, see [Writing Style](../text.md#writing-style).
+{% endhint %}
+
+
 

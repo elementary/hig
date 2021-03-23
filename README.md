@@ -2,9 +2,9 @@
 description: Create a beautifully consistent experience on the elementary OS desktop
 ---
 
-# Human Interface Guidelines
+# Introduction
 
-These guidelines are for interface designers, graphic artists, and software developers working on apps for elementary OS. They not only define specific design elements and principles, but also help instill a philosophy that enables you to decide when it is appropriate to deviate from the guidelines. 
+These guidelines are for interface designers, graphic artists, and software developers working on apps for elementary OS. They not only define specific design elements and principles, but also help instill a philosophy that enables you to decide when it is appropriate to deviate from the guidelines.
 
 Adhering to the suggestions contained here provides many benefits:
 
