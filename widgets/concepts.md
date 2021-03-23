@@ -28,7 +28,7 @@ All GTK widgets inherit the property [`sensitive`](https://valadoc.org/gtk+-3.0/
 
 When a widget only makes sense in a certain context \(not as an indicator of an action to be performed\) it often makes more sense to hide it. Take hardware requirements for example: It may not make sense to show multi-display options if the system only has a single display. Making multi-display options insensitive is not really a helpful hint in this context and also serves to add complexity and clutter to your UI.
 
-Consider the "clear" button present in [search fields](ui-toolkit-elements/#search-fields). This button only appears when it is relevant and needed. Setting this button as insensitivenly only clutters the UI since it's not important to hint to the user that this entry can be quickly cleared once there is text in it.
+Consider the "clear" button present in [search fields](ui-toolkit-elements/#search-fields). This button only appears when it is relevant and needed. Setting this button as insensitive only clutters the UI since it's not important to hint to the user that this entry can be quickly cleared once there is text in it.
 
 {% hint style="warning" %}
 Hiding a widget can give the impression that functionality is not available at all or can leave a user wondering why a feature has suddenly "disappeared". Be sure that this widget isn't necessary as an affordance.
