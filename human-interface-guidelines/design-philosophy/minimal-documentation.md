@@ -11,6 +11,6 @@ Avoid technical jargon and assume little-to-no technical knowledge. This lets yo
 Provide non-technical explanations instead of cryptic error messages. If something goes wrong, a simplified explanation of what happened and how to fix it should be presented.
 
 {% hint style="info" %}
-For more information, see [Writing Style](../../text.md#writing-style).
+For more information, see [Writing Style](../../reference/text.md#writing-style).
 {% endhint %}
 

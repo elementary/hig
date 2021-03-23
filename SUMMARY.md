@@ -25,11 +25,24 @@
 
 ## Widgets
 
-* [UI Toolkit Elements](widgets/ui-toolkit-elements.md)
-* [Container Widgets](widgets/container-widgets.md)
+* [Concepts](widgets/concepts.md)
+* [Interactive Widgets](widgets/ui-toolkit-elements/README.md)
+  * [Info Bar](widgets/ui-toolkit-elements/info-bar.md)
+  * [Welcome Screen](widgets/ui-toolkit-elements/welcome-screen.md)
+  * [Source List](widgets/ui-toolkit-elements/source-list.md)
+  * [Button](widgets/ui-toolkit-elements/button.md)
+  * [Search Entry](widgets/ui-toolkit-elements/search-entry.md)
+  * [Selection Controls](widgets/ui-toolkit-elements/selection-controls.md)
+  * [Notebook](widgets/ui-toolkit-elements/notebook.md)
+  * [Toast](widgets/ui-toolkit-elements/toast.md)
+* [Containers](widgets/container-widgets.md)
+
+## Reference
+
+* [Iconography](reference/iconography.md)
+* [Text](reference/text.md)
 
 ---
 
-* [Iconography](iconography.md)
-* [Text](text.md)
+* [HIG Style Guide](hig-style-guide.md)
 
