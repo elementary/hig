@@ -19,10 +19,12 @@ Before we get into all the things that make up elementary OS apps, there is a cl
 1. **Design is not something you add on after you've completed a product.** Whether you realize it or not, you are constantly designing anything you build. It is an intrinsic part of creating something. Design is not just what something looks like. It's not just the colors and fonts. Design is how it works. When you decide to add a button that does a thing, that is design. You made a decision to add a button with an icon or a label and where that button went and the size and color of that button. Decisions are designs.
 2. **Design is not just, like, your opinion, man.** Design is testable. One design will meet a specific goal better than another design. Consider different types of bicycles. A folding bicycle has a different set of design goals than a mountain bicycle. Things like weight, size, and tire tread are important factors in helping the intended user reach their goals. Because we understand that design is about solving specific problems, we must also understand that we can objectively compare the effectiveness of two designs at solving those problems.
 
+{% hint style="info" %}
 See also:
 
 1. [Design Is Not Veneer](https://ar.al/notes/design-is-not-veneer/) by Aral Balkan
 2. [Design is Not Subjective](https://web.archive.org/web/20181208131017/http://www.jefflaw.ca/design-is-not-subjective/) by Jeff Law
+{% endhint %}
 
 ## Concision <a id="concision"></a>
 
@@ -64,11 +66,13 @@ Keep things contextual. Instead of tucking away preferences in a configuration d
 
 If your app needs to be configured before it can be used \(like a mail client\), present this configuration inside the main window much like a [Welcome Screen](../widgets/ui-toolkit-elements.md#welcome-screen). Once again, make sure this is really necessary set-up. Adding unnecessary configuration screens stops users from doing what they wanted to do when they opened your app in the first place.
 
-See Also:
+{% hint style="info" %}
+See also:
 
 1. [Checkboxes That Kill Your Product](https://limi.net/checkboxes) by Alex Limi
 2. [Don't Give Your Users Shit Work](https://zachholman.com/posts/shit-work/) by Zach Holman
 3. [The Wizard Anti-Pattern](http://stef.thewalter.net/installer-anti-pattern.html) by Stef Walter
+{% endhint %}
 
 ## Minimal Documentation <a id="minimal-documentation"></a>
 
