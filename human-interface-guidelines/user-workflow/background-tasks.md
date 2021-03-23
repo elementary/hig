@@ -1,3 +1,7 @@
+---
+description: How your app manages to do things invisibly in the background
+---
+
 # Background Tasks
 
 If it makes sense to continue a process in the background \(such as downloading/transferring, playing music, or executing a terminal command\) the app back-end should continue with the task and close when the task is finished. If it's not immediately apparent that the process has completed \(as with the file download/transfer or terminal command\), the app may show a notification informing the user that the process has completed. If it is apparent, as with the music, no notification is necessary.
