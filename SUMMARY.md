@@ -16,7 +16,12 @@
   * [Always Saved](human-interface-guidelines/user-workflow/always-saved.md)
   * [Closing](human-interface-guidelines/user-workflow/closing.md)
   * [Background Tasks](human-interface-guidelines/user-workflow/background-tasks.md)
-* [Desktop Integration](human-interface-guidelines/desktop-integration.md)
+* [Desktop Integration](human-interface-guidelines/desktop-integration/README.md)
+  * [App Launcher](human-interface-guidelines/desktop-integration/app-launcher.md)
+  * [Contractor](human-interface-guidelines/desktop-integration/contractor.md)
+  * [System Indicators](human-interface-guidelines/desktop-integration/system-indicators.md)
+  * [Dock Integration](human-interface-guidelines/desktop-integration/dock-integration.md)
+  * [Notifications](human-interface-guidelines/desktop-integration/notifications.md)
 
 ## Widgets
 

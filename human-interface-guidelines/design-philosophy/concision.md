@@ -14,5 +14,5 @@ It's often very tempting to continue adding more and more features into your app
 
 ## Think in Modules
 
-Build small, modular apps that communicate well. elementary OS apps avoid feature overlap and make their functions available to other apps either through [Contractor](../desktop-integration.md#contractor) or over [D-Bus](https://www.freedesktop.org/wiki/Software/dbus/). This both saves you time as a developer \(by other apps making their functions available to you\), and is a courteous gesture towards other developers \(by making your app's functions available to them\).
+Build small, modular apps that communicate well. elementary OS apps avoid feature overlap and make their functions available to other apps either through [Contractor](../desktop-integration/#contractor) or over [D-Bus](https://www.freedesktop.org/wiki/Software/dbus/). This both saves you time as a developer \(by other apps making their functions available to you\), and is a courteous gesture towards other developers \(by making your app's functions available to them\).
 
