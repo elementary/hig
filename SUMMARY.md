@@ -1,11 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-
-## Human Interface Guidelines
-
----
-
 * [Design Philosophy](design-philosophy/README.md)
   * [What Design Is Not](design-philosophy/what-design-is-not.md)
   * [Concision](design-philosophy/concision.md)
