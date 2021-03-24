@@ -10,7 +10,7 @@ The primary method of discovering and using your app will be through an app laun
 
 The contents of .desktop files should follow this formula:
 
-_**Name** is a\(n\) **GenericName** that lets you **Comment**._
+_**Name** is a\(n\) **GenericName** that helps you **Comment**._
 
 ```text
 Name=Eddy
