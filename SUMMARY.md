@@ -23,13 +23,13 @@
 ## Widgets
 
 * [Concepts](widgets/concepts.md)
+* [Selection Controls](widgets/selection-controls.md)
 * [Interactive Widgets](widgets/ui-toolkit-elements/README.md)
   * [Info Bar](widgets/ui-toolkit-elements/info-bar.md)
   * [Welcome Screen](widgets/ui-toolkit-elements/welcome-screen.md)
   * [Source List](widgets/ui-toolkit-elements/source-list.md)
   * [Button](widgets/ui-toolkit-elements/button.md)
   * [Search Entry](widgets/ui-toolkit-elements/search-entry.md)
-  * [Selection Controls](widgets/ui-toolkit-elements/selection-controls.md)
   * [Notebook](widgets/ui-toolkit-elements/notebook.md)
   * [Toast](widgets/ui-toolkit-elements/toast.md)
 * [Containers](widgets/container-widgets.md)
