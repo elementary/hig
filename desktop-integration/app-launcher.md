@@ -4,7 +4,7 @@ description: The primary method of discovering and using your app
 
 # App Launcher
 
-An app launcher file (or .desktop file) contains information that will be used to display your app when it is installed, such as in the applications menu and dock. It contains an app's name, description, categories, icon, keywords, and associated actions.
+An app launcher file (or .desktop file) contains information that will be used to display your app when it is installed, such as in the Applications menu and Dock. It contains an app's name, description, categories, icon, keywords, and associated actions.
 
 {% hint style="info" %}
 For technical information about shipping app launcher files see our [developer documentation](https://docs.elementary.io/develop/writing-apps/our-first-app#the-desktop-file)
@@ -95,4 +95,3 @@ Keywords=Foo;Bar;Baz;
 ```
 
 See also: [Desktop Entry Specification](https://specifications.freedesktop.org/desktop-entry-spec/latest/index.html) from FreeDesktop.org
-
