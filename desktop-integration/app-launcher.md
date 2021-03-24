@@ -68,7 +68,6 @@ The full list of supported categories can be found in the FreeDesktop.Org [menu 
 You can add more than one category to your app launcher file and you should add all that apply
 {% endhint %}
 
-
 ## Keywords
 
 You may also include keywords in your launcher to help users find your app via search. These follow [the "Keywords" key](https://standards.freedesktop.org/desktop-entry-spec/latest/ar01s05.html) in your .desktop file. For example, a web browser might include "Internet" as a keyword even though it's not in the app's name, generic name, or description. As a result, a user searching for "Internet" will find the app. Here are some more examples:
