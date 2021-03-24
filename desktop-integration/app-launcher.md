@@ -56,29 +56,18 @@ Comment=Listen to music
 
 ## Categories
 
-The following categories may be used to aid with searching or browsing for your app. Keep in mind that you can add more than one and you should add all that apply:
-
-* AudioVideo
-* Audio
-* Video
-* Development
-* Education
-* Game
-* Graphics
-* Network
-* Office
-* Science
-* Settings
-* System
-* Utility
-
-For more info, see the FreeDesktop.Org [menu entry](https://specifications.freedesktop.org/menu-spec/latest/apa.html) spec and the [list of additional categories](https://standards.freedesktop.org/menu-spec/latest/apas02.html)
-
-Categories should be separated by and terminated with a semicolon:
+Categories are used to sort your app in AppCenter and in the applications menu. In your app launcher file, they should be separated by and terminated with a semicolon:
 
 ```text
 Categories=Graphics;Photography;Viewer;
 ```
+
+The full list of supported categories can be found in the FreeDesktop.Org [menu entry](https://specifications.freedesktop.org/menu-spec/latest/apa.html) specification and the [list of additional categories](https://standards.freedesktop.org/menu-spec/latest/apas02.html)
+
+{% hint style="info" %}
+You can add more than one category to your app launcher file and you should add all that apply
+{% endhint %}
+
 
 ## Keywords
 
