@@ -16,17 +16,14 @@
 * [Desktop Integration](desktop-integration/README.md)
   * [App Launcher](desktop-integration/app-launcher.md)
   * [Contractor](desktop-integration/contractor.md)
-  * [System Indicators](desktop-integration/system-indicators.md)
-  * [Dock Integration](desktop-integration/dock-integration.md)
-  * [Notifications](desktop-integration/notifications.md)
 
 ## Widgets
 
 * [Avoid Widgets That Do Nothing](widgets/avoid-widgets-that-do-nothing.md)
 * [Creating Layouts](widgets/creating-layouts.md)
 * [Selection Controls](widgets/selection-controls.md)
+* [Providing Feedback](widgets/providing-feedback.md)
 * [Interactive Widgets](widgets/ui-toolkit-elements/README.md)
-  * [Info Bar](widgets/ui-toolkit-elements/info-bar.md)
   * [Welcome Screen](widgets/ui-toolkit-elements/welcome-screen.md)
   * [Button](widgets/ui-toolkit-elements/button.md)
   * [Search Entry](widgets/ui-toolkit-elements/search-entry.md)

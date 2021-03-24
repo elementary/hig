@@ -20,47 +20,6 @@ When dealing with window titles, consider that their main use is in distinguishi
 
 Even if your app uses a headerbar, be sure to set the window's title; it can be shown in the window switcher and elsewhere in the OS.
 
-## Dialogs <a id="dialogs"></a>
-
-24 ![Dialog warning icon](https://github.com/elementary/docs/tree/d403ffd31ba6478c412d29b2029160b312d778ed/hig/images/icons/status/48/dialog-warning.svg)
-
-Primary text providing basic information and a suggestion
-
-Secondary text providing further details. Also includes information that explains any unobvious consequences of actions.24CancelSuggested Action
-
-### Alert Text <a id="alert-text"></a>
-
-An alert contains both primary and secondary text.
-
-The primary text contains a brief summary of the situation and offer a suggested action. This text should use the CSS class `primary`. Primary text should be in [sentence case](container-widgets.md#sentence-case) and not include [terminating punctuation](container-widgets.md#terminating-punctuation), except in the case of questions.
-
-The secondary text provides a more detailed description of the situation and describes any possible side effects of the available actions. It's important to note that a user should only need the primary text to make a decision and should only need to refer to the secondary text for clarification. This text should be placed one text line height beneath the primary text using the default font size and weight. Secondary text should be in [sentence case](container-widgets.md#sentence-case) with [terminating punctuation](container-widgets.md#terminating-punctuation).
-
-Make both the primary and secondary text selectable. This makes it easy for the user to copy and paste the text to another window, such as an email message.
-
-Please refer to [`Granite.MessageDialog`](https://valadoc.org/granite/Granite.MessageDialog.html). It is preferred as an elementary OS styled dialog that follows elementary OS design conventions.
-
-### Button Order <a id="button-order"></a>
-
-![Button Order](https://elementary.io/images/docs/human-interface-guidelines/dialogs/button-order.png)
-
-* All dialogs should contain an affirmative button that performs the action suggested in the primary text. This button should be aligned to the very end of the dialog.
-* For dialogs that are displayed in response to user action \(such as "Quit"\), provide a "Cancel" button directly before the affirmative button.
-* If your dialog has alternative actions, list them before the "Cancel" button.
-* If your dialog has incidental actions \(actions that do not close the dialog such as "Help"\), these should be aligned to the start of the dialog.
-
-### "OK" is not Okay <a id="ok-is-not-okay"></a>
-
-When presenting a dialog to a user, always use explicit action names like "Save..." or "Shut Down". Consider how "OK" lets users proceed without understanding the action they are authorizing. Not all users will read the question or information presented to them in a dialog. Using specific action names will make it harder for a user to select an unintended action and may even encourage them to read the presented information before making a selection.
-
-### Suggested and Destructive Actions <a id="suggested-destructive-actions"></a>
-
-If the primary action is not destructive, its button should be given the `.suggested-action` style class, rendering it in a highlighted style by default. It should usually be focused by default so it's quicker for the user to perform the action using the keyboard.
-
-If the primary action is destructive—i.e. it cannot be easily reversed or undone—it should be given the `.destructive-action` style class, rendering it in a red style by default. Destructive actions should not be focused by default to prevent accidental activation.
-
-Multiple suggested and/or destructive actions should not co-exist in the same context; there should only be one of either type in a dialog.
-
 ### Preference Dialogs <a id="preference-dialogs"></a>
 
 Preference dialogs should be made Transient, but not Modal. When a user makes a change in a preference dialog, the change should be immediately visible in the UI. If the dialog is modal, the user may be blocked from seeing \(and especially from interacting with\) the change. This means they will have to close the dialog, evaluate the change, then possibly re-open the dialog. By making the dialog transient, we keep the dialog on top for easy access, but we also let the user evaluate and possibly revert the change without having to close and re-open the preference dialog.
