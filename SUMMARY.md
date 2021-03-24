@@ -22,12 +22,12 @@
 
 ## Widgets
 
-* [Concepts](widgets/concepts.md)
+* [Avoid Widgets That Do Nothing](widgets/avoid-widgets-that-do-nothing.md)
+* [Creating Layouts](widgets/creating-layouts.md)
 * [Selection Controls](widgets/selection-controls.md)
 * [Interactive Widgets](widgets/ui-toolkit-elements/README.md)
   * [Info Bar](widgets/ui-toolkit-elements/info-bar.md)
   * [Welcome Screen](widgets/ui-toolkit-elements/welcome-screen.md)
-  * [Source List](widgets/ui-toolkit-elements/source-list.md)
   * [Button](widgets/ui-toolkit-elements/button.md)
   * [Search Entry](widgets/ui-toolkit-elements/search-entry.md)
   * [Notebook](widgets/ui-toolkit-elements/notebook.md)

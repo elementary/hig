@@ -81,14 +81,3 @@ Popovers are like a contextual dialog. They display transient content directly r
 A popover should be used when a user wants to perform a quick action without getting out of the main UI. Some examples of where a popover could be used are adding a contact from an email, adding a bookmark in a browser, or displaying downloads or file transfers.
 
 Popovers should not be used when displaying only a simple list of items; instead, use a menu. Likewise, don't use a popover if the user would spend more than a few seconds in it; instead, use a dialog. Remember that popovers are contextual and should directly relate to the UI element from which they spawn.
-
-## Toolbars <a id="toolbars"></a>
-
-A Toolbar is useful for providing users with quick access to an app's most used features. Besides Buttons, a Toolbar is one of the most frequently used UI elements. It may seem like a simple container, but it is important to remain consistent in its use and organization.
-
-### Ordering Toolbar Items <a id="ordering-toolbar-items"></a>
-
-![Toolbar](https://elementary.io/images/docs/human-interface-guidelines/toolbars/toolbar.png)
-
-Toolbar items should be organized with the most significant objects on the left and the least significant on the right. If you have many toolbar items it may be appropriate to divide them into groups with space in between each group. Keep in mind that when viewed with RTL languages, your toolbar layout will be flipped.
-
