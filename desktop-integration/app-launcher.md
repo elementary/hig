@@ -4,11 +4,13 @@ description: The primary method of discovering and using your app
 
 # App Launcher
 
-The primary method of discovering and using your app will be through an app launcher found in the Applications Menu or in the Dock. In order to provide these launchers you must install an appropriate .desktop file with your app. This includes giving your launcher an appropriate name, placing it in the correct category, assigning it an icon, etc.
+An app launcher file (or .desktop file) contains information that will be used to display your app when it is installed, such as in the Applications menu and Dock. It contains an app's name, description, categories, icon, keywords, and associated actions.
 
-.desktop files follow the freedesktop.org [Desktop Entry Specification](https://specifications.freedesktop.org/desktop-entry-spec/latest/index.html). They should be installed in `/usr/share/applications`.
+{% hint style="info" %}
+For technical information about shipping app launcher files see our [developer documentation](https://docs.elementary.io/develop/writing-apps/our-first-app#the-desktop-file)
+{% endhint %}
 
-The contents of .desktop files should follow this formula:
+The naming and description portion of the app launcher file should follow this formula:
 
 _**Name** is a\(n\) **GenericName** that helps you **Comment**._
 
@@ -16,8 +18,6 @@ _**Name** is a\(n\) **GenericName** that helps you **Comment**._
 Name=Eddy
 GenericName=Package Installer
 Comment=Install Debian packages
-Categories=System;PackageManager;
-Keywords=Package;Apt;Dpkg;Install;
 ```
 
 ## Name
@@ -83,4 +83,3 @@ Keywords=Foo;Bar;Baz;
 ```
 
 See also: [Desktop Entry Specification](https://specifications.freedesktop.org/desktop-entry-spec/latest/index.html) from FreeDesktop.org
-
