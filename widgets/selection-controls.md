@@ -64,7 +64,7 @@ When possible, directly call out the service you are acting on. Do not use words
 
 As of elementary OS 5 Juno, mode switches are a new switch-based widget that communicate switching between two distinct states. For example, switching between a photo or video mode in a camera. The switch is drawn smaller and inline with the provided symbolic icons. Tooltip hints can also be provided when hovering the icons.
 
-Use a mode switch when you have two distinct and opposing states that you are switching between that can be effectively communicated via an icon. If you need text or more than two states, use a [Mode Button](./#linked-buttons) instead.
+Use a mode switch when you have two distinct and opposing states that you are switching between that can be effectively communicated via an icon. If you need text or more than two states, use a [Mode Button](ui-toolkit-elements/#linked-buttons) instead.
 
 {% hint style="info" %}
 _See also:_ [_3 Ways to Make Checkboxes, Radio Buttons Easier to Click_](http://uxmovement.com/forms/ways-to-make-checkboxes-radio-buttons-easier-to-click/) _by UX Movement_

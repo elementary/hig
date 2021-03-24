@@ -19,10 +19,10 @@
 
 ## Widgets
 
-* [Avoid Widgets That Do Nothing](widgets/avoid-widgets-that-do-nothing.md)
 * [Creating Layouts](widgets/creating-layouts.md)
-* [Selection Controls](widgets/selection-controls.md)
 * [Providing Feedback](widgets/providing-feedback.md)
+* [Selection Controls](widgets/selection-controls.md)
+* [Avoid Widgets That Do Nothing](widgets/avoid-widgets-that-do-nothing.md)
 * [Interactive Widgets](widgets/ui-toolkit-elements/README.md)
   * [Welcome Screen](widgets/ui-toolkit-elements/welcome-screen.md)
   * [Button](widgets/ui-toolkit-elements/button.md)
