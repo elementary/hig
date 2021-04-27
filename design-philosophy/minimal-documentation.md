@@ -2,7 +2,7 @@
 
 Most users don't want to read through help docs before they can use your app. Instead, they expect that your app will be intuitive and simple for them to understand without assistance.
 
-![&#x201C;Manuals&#x201D; from XKCD](https://imgs.xkcd.com/comics/manuals.png)
+![&#x201C;Manuals&#x201D; from XKCD](../.gitbook/assets/manuals.png)
 
 ## Use Understandable Copy
 
