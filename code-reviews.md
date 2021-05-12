@@ -14,7 +14,7 @@ At elementary we believe in the YAGNI principle (You aren't gonna need it): Alwa
 
 ### Avoid big changes in one go
 
-As someone proposing a code change, probably the most helpful thing is to keep it small. A small Pull Request feels less intimidating for a code reviewer, so there is a highler chance to get timely feedback for such a request. In addition, a small change is a lot less to test and there is a much smaller chance of a regression - both things lead to a higher overall quality and therefore to a better experience for the end user.
+As someone proposing a code change, probably the most helpful thing is to keep it small. A small Pull Request feels less intimidating for a code reviewer, so there is a higher chance to get timely feedback for such a request. In addition, a small change is a lot less to test and there is a much smaller chance of a regression - both things lead to a higher overall quality and therefore to a better experience for the end user.
 
 If you're proposing large functional changes, it's usually better to propose clean ups in several smaller Pull Request and linking them to a corresponding Issue report which explains the overarching goal.
 
@@ -41,7 +41,7 @@ sending it to official Code Review. Of course, if you want some early opinion, t
 
 ## Guidelines for Reviewing Code
 
-### Partial is better than perfect
+### Partial is better than none
 
 A partial review or is better than no review: You don't need to fully understand the codebase to test its functionality. Often the provided feedback of a partial review helps to keep the momentum going and eventually leads to a full review.
 
