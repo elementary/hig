@@ -16,6 +16,7 @@
 * [Desktop Integration](desktop-integration/README.md)
   * [App Launcher](desktop-integration/app-launcher.md)
   * [Contractor](desktop-integration/contractor.md)
+* [Code Reviews](code-reviews.md)
 
 ## Widgets
 
