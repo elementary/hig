@@ -1,12 +1,12 @@
 ---
-description: How to make a Code Review a fruitful experience for coders and reviewers alike.
+description: Guidelines to make code reviews fruitful for developers and reviewers alike.
 ---
 
 # Code Reviews
 
-Code reviews play a crucial role in the elementary OS development process: Having other people verifying your code works as intended is certainly a big boost for overall code quality. But they serve an even bigger purpose: They provide the opportunity to learn from each other. This guide provides some tips and best practices to minimize the barriers for doing or receiving Code Reviews.
+Code reviews play a crucial role in the elementary OS development process: Having other people verifying your code works as intended certainly improves the overall code quality. But those reviews serve an even bigger purpose: They provide an opportunity to learn from each other. This guide tries to minimize the barrier for code reviews by providing a common ground of best practices and philosophies which proved to be useful over the years.
 
-## Writing Code for Reviews
+## Guidelines for Developing Code
 
 ### Program for the present, not the future
 
@@ -34,12 +34,12 @@ If you are writing some non-trivial code, make sure to add a comment which expla
 
 Make sure you describe the changes you are proposing in the Pull Request description. If appropriate, add a screenshot or a short video to show case your change. This cuts down a lot on the time a reviewer needs to invest to understand your code.
 
-### Review your Code yourself first
+### Review your code yourself first
 
 When you got your initial version for the poposed change working, look into the code you've added once again and ask yourself if anything could be done in a better fashion before
 sending it to official Code Review. Of course, if you want some early opinion, there is always the possibility to open a Draft Pull Request as well.
 
-## Doing Reviews
+## Guidelines for Reviewing Code
 
 ### Partial is better than perfect
 
