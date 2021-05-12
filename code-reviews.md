@@ -43,7 +43,7 @@ sending it to official Code Review. Of course, if you want some early opinion, t
 
 ### Partial is better than none
 
-A partial review or is better than no review: You don't need to fully understand the codebase to test its functionality. Often the provided feedback of a partial review helps to keep the momentum going and eventually leads to a full review.
+A partial review is better than no review: You don't need to fully understand the codebase to test its functionality. Often the provided feedback of a partial review helps to keep the momentum and eventually leads to a full review.
 
 ### Stay curious
 
