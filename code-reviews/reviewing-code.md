@@ -6,11 +6,11 @@ A partial review is better than no review: You don't need to fully understand th
 
 ## Stay curious
 
-If there's code you don't understand, ask about what it does: The chances are good it either needs a comment, could be refactored or you get to learn something new!
+If there's code you don't understand, ask about what it does. The chances are good it either needs a comment, could be refactored or you get to learn something new!
 
 ## Watch out for potential ways the code could fail
 
-Because of Murphy's law ("Anything that can go wrong will go wrong") we want to make extra sure to keep an eye on potential pitfalls during code review. This is especially true for code that is responsible of carrying out a users intent: Code which fails to execute a user-initiated action _and_ is unable to inform the user about such an error leads to a bad user experience.
+Because of Murphy's law ("Anything that can go wrong will go wrong") we want to make extra sure to keep an eye on potential pitfalls during code review. This is especially true for code that is responsible for carrying out an users intent. Code which fails to execute an user initiated action _and_ is unable to inform the user about the error leads to a bad user experience.
 
 ## Recognize the good things
 

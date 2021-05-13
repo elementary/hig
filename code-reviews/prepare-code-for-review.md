@@ -2,13 +2,13 @@
 
 ## Program for the present, not the future
 
-At elementary we believe in the YAGNI principle (You aren't gonna need it): Always implement when you _actually have_ a need - but never when you _think_ you are _gonna_ need it. Combined with continous refactoring, the YAGNI principle keeps the code base as simple as possible while helping us to avoid technical debt.
+At elementary, we believe in the YAGNI principle (You aren't gonna need it): Always implement when you _actually have_ a need - but never when you _think_ you are _gonna_ need it. Combined with continous refactoring, the YAGNI principle keeps the code base as simple as possible while helping us to avoid technical debt.
 
 ## Avoid big changes in one go
 
 As someone proposing a code change, probably the most helpful thing is to keep it small. A small Pull Request feels less intimidating for a code reviewer, so there is a higher chance to get timely feedback for such a request. In addition, a small change is a lot less to test and there is a much smaller chance of a regression - both things lead to a higher overall quality and therefore to a better experience for the end user.
 
-If you're proposing large functional changes, it's usually better to do so in several smaller Pull Request and linking them to a corresponding issue report which explains the overarching goal.
+If you're proposing large functional changes, it's usually better to do so in several smaller Pull Requests and linking them to a corresponding issue report which explains the overarching goal.
 
 ## Keep it self contained
 
@@ -16,7 +16,7 @@ It's really tempting to do a lot of refactoring as you see it, but this makes it
 
 ## Keep it consistent
 
-Naming is one of those things that feels trivial but really helps in a few years when it's all new eyes on some code. Especially if we can use names that sound like the ones already present in the libraries used it can make it much easier to figure out what's happening.
+Naming is one of those things that feels trivial but really helps in a few years when it's all new eyes on some code. Especially if we can use names that sound like the ones already present in the libraries used, it can make it much easier to figure out what's happening.
 
 ## Comment non-trivial code
 
@@ -55,4 +55,4 @@ Make sure you describe the changes you are proposing in the Pull Request descrip
 
 ## Review your code yourself first
 
-When you got your initial version for the poposed change working, look into the code you've added once again and ask yourself if anything could be done in a better fashion before sending it to official Code Review. Of course, if you want some early opinion, there is always the possibility to open a Draft Pull Request as well.
+When you got your initial version for the poposed change working, look into the code you've added once again and ask yourself if anything could be improved before sending it to official Code Review. Of course, if you want some early opinion, there is always the possibility to open a Draft Pull Request as well.
