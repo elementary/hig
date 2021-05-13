@@ -47,7 +47,7 @@ void do_foo () {
 }
 ```
 
-Don't worry, we understand this is sometimes a difficult advice to follow thoroughly. But if your commit history seems hard to follow what you actually did, it might be worth the effort to [clean up the Git history with interactive rebasing](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History). This makes it much easier for a reviewer to follow your changes and minimizes the risk of introducing regressions.
+Don't worry, we understand this is sometimes a difficult advice to follow thoroughly. But if the nature of the code changes in your commits seem to be rather unrelated, its probably worth the effort to [clean up the Git history with interactive rebasing](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History). This extra step makes it much easier for another person to review your changes and minimizes the risk of regressions for all of us.
 
 ## Describe your change
 
