@@ -38,7 +38,7 @@ void other_function () {
 }
 ```
 
-**Commit #2: Refactoring do_foo**
+**Commit #2: Changing logic in do_foo**
 
 ```diff
 void do_foo () {
