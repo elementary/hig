@@ -33,9 +33,9 @@ It is important to determine the severity or type of info bar to use. There are 
 
 A message dialog contains both primary and secondary text as well as clearly labeled buttons.
 
-The primary text contains a brief summary of the situation and offers a suggested action. Primary text should be in [sentence case](container-widgets.md#sentence-case) and not include [terminating punctuation](container-widgets.md#terminating-punctuation), except in the case of questions.
+The primary text contains a brief summary of the situation and offers a suggested action. Primary text should be in [sentence case](../reference/text.md#sentence-case) without [terminating punctuation](../reference/text.md#terminating-punctuation), except in the case of questions.
 
-The secondary text provides a more detailed description of the situation and describes any possible side effects of the available actions. It's important to note that a user should only need the primary text to make a decision and should only need to refer to the secondary text for clarification. Secondary text should be in [sentence case](container-widgets.md#sentence-case) with [terminating punctuation](container-widgets.md#terminating-punctuation).
+The secondary text provides a more detailed description of the situation and describes any possible side effects of the available actions. It's important to note that a user should only need the primary text to make a decision and should only need to refer to the secondary text for clarification. Secondary text should be in [sentence case](../reference/text.md#sentence-case) with [terminating punctuation](../reference/text.md#terminating-punctuation).
 
 {% hint style="info" %}
 [`Granite.MessageDialog`](https://valadoc.org/granite/Granite.MessageDialog.html) is the prefered way to create message dialogs with the correct layout
@@ -65,6 +65,8 @@ Multiple suggested and/or destructive actions should not co-exist in the same co
 ## Notifications
 
 Notifications play a sound and are displayed as bubbles just below the system indicators. They briefly appear on screen where they can be selected to open the relevant app or manually dismissed by hitting the X icon. After a short time, they automatically slide away. Missed notifications can be seen in and cleared from the Notification Center indicator.
+
+Notification titles should be in [sentence case](../reference/text.md#sentence-case) without [terminating punctuation](../reference/text.md#terminating-punctuation), except in the case of questions.
 
 ### Sounds
 
