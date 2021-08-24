@@ -99,7 +99,9 @@ Make progress bars unambiguous by referring to a single, specific task. For exam
 
 ### Badges
 
-A badge shows a count of actionable items managed by your app. Its purpose is to inform the user that there are items that require user attention or action without being obtrusive. This is a passive notification. A badge should not show totals or rarely changing counters. If the badge is not easily dismissed when the user views your app, it is likely that this is not a good use of a badge.
+A badge shows a count of new, actionable items managed by your app. Its purpose is to inform the user that there are items that require user attention or action without being obtrusive. This is a passive notification. A badge should not show totals or rarely changing counters. If the badge is not easily dismissed when the user views your app, it is likely that this is not a good use of a badge.
 
-* **Good Example**: Unread messages in a mail app
+* **Good Example**: New messages since an app was last opened
 * **Bad Example**: Total number of photos in a photo library
+
+Note that in a mail or chat app, a strict "unread" counter may not be the most useful. Instead, your app's badge should count _new_ unseen messages, e.g. messages that have come in since the last time the user opened your app. Otherwise it may just always be some large, daunting number rather than providing the most relevant information at any given moment.
