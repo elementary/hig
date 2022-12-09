@@ -13,9 +13,7 @@
   * [Always Saved](user-workflow/always-saved.md)
   * [Closing](user-workflow/closing.md)
   * [Background Tasks](user-workflow/background-tasks.md)
-* [Desktop Integration](desktop-integration/README.md)
-  * [App Launcher](desktop-integration/app-launcher.md)
-  * [Contractor](desktop-integration/contractor.md)
+* [App Launcher](app-launcher.md)
 
 ## Widgets
 
