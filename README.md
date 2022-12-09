@@ -20,5 +20,5 @@ To help you achieve these goals, these guidelines cover basic interface elements
 Keep in mind that this is a set of guidelines, not a rule book. New, amazing interaction paradigms appear every day and more are waiting to be discovered. This is a living document that can and will be changed.
 {% endhint %}
 
-For sections that have not yet been written, please refer to [The GNOME HIG](https://developer.gnome.org/hig/stable/).
+For sections that have not yet been written, please refer to [The GNOME HIG](https://developer.gnome.org/hig).
 

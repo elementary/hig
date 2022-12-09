@@ -86,7 +86,7 @@ There are three aspects to note when designing an elementary OS icon:
 * Its mean line height \(green\), also known as the center line of the canvas.
 * Its x-height \(shown in red\), or "how tall" the icon is.
 
-![Composition breakdown of elementary OS Videos icon](https://elementary.io/images/docs/human-interface-guidelines/icons/grid.svg) ![Composition breakdown of elementary OS Terminal icon](https://elementary.io/images/docs/human-interface-guidelines/icons/grid.svg)
+![Composition breakdown of Videos icon](../.gitbook/assets/composition-videos.png) ![Composition breakdown of Terminal icon](../.gitbook/assets/composition-terminal.png)
 
 Keeping these lines in mind while designing, means you can place elements along them to ensure that icons appear more consistent when put together. For example, notice how some elements in both the Terminal and Videos icons above relate to the mean line.
 
@@ -105,9 +105,9 @@ If you're designing a square-shaped icon, like the one for Terminal seen above, 
 
 ### Exceptions <a id="icon-exceptions"></a>
 
-However, there are exceptions. Many icons \(especially mimetype icons\) have ascending and descending elements, which are those elements that extend beyond the base line and x-height line \(shown here in orange\).
+However, there are exceptions. Many icons \(especially mediatype icons\) have ascending and descending elements, which are those elements that extend beyond the base line and x-height line \(shown here in orange\).
 
-![Composition exception example in elementary OS Video icon](https://elementary.io/images/docs/human-interface-guidelines/icons/grid.svg) ![Composition exception example in elementary OS Terminal icon](https://elementary.io/images/docs/human-interface-guidelines/icons/grid.svg)
+![Composition exception of mediatype icon](../.gitbook/assets/exceptions-mediatype.png) ![Composition exception of installer icon](../.gitbook/assets/exceptions-installer.png)
 
 Rounder components will generally require some overshoot, to compensate for the optical illusion that makes them look smaller than their rectangular counterparts.
 
@@ -115,7 +115,7 @@ Rounder components will generally require some overshoot, to compensate for the 
 
 All elementary OS icons have a thin outline \(stroke\) to improve their contrast. The width of this stroke is **one** pixel for all icons, at every size. The color of the outline is a darker variant \(30% darker\) of the primary color of the icon. For instance, in the calendar icon below, the green header has a stroke of a darker green.
 
-![Example of contrast in elementary OS Calendar icon](https://elementary.io/images/docs/human-interface-guidelines/icons/grid.svg) ![Example of contrast in elementary Settings icon](https://elementary.io/images/docs/human-interface-guidelines/icons/grid.svg)
+![Example of contrast in elementary OS Calendar icon](../.gitbook/assets/outlines-calendar.png) ![Example of contrast in System Settings icon](../.gitbook/assets/outlines-switchboard.png)
 
 To further improve contrast, strokes are also semi-transparent. This ensures that icons appear sharp against a variety of backgrounds. Also, if the element is near-white, this stroke acts as a border and contains, rather than overlaps, its corresponding element. See the above icon for an example of this.
 
@@ -127,7 +127,7 @@ If you picture an icon sitting on a shelf, facing you, with a light source above
 
 To apply the edge highlight effect to your icon, draw a subtle, **1 pixel**, inner stroke as a highlight. This outline is slightly brighter at the top and the bottom than it is at the edges.
 
-![Edge highlight example in elementary OS Music icon](https://elementary.io/images/docs/human-interface-guidelines/icons/grid.svg)
+![Edge highlight example in Music icon](../.gitbook/assets/highlight-music.png)
 
 ### Drop Shadow <a id="drop-shadow"></a>
 
