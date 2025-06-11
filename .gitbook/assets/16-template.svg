@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     units="px"
+     width="16px"
+     showguides="true">
+    <sodipodi:guide
+       position="0,1"
+       orientation="0,-1"/>
+    <sodipodi:guide
+       position="0,15"
+       orientation="0,-1"/>
+    <sodipodi:guide
+       position="0,8"
+       orientation="0,1"/>
+  </sodipodi:namedview>
+</svg>
