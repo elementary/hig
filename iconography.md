@@ -94,14 +94,14 @@ Keeping these lines in mind while designing, means you can place elements along 
 
 If you're designing a square-shaped icon, like the one for Terminal seen above, then consider using these common measurements \(in pixels\) for each icon:
 
-| Canvas Size | Base Line | x-Height | Mean Line Height |
-| :--- | :--- | :--- | :--- |
-| 16x16 | 1 | 14 | 8 |
-| 24x24 | 2 | 20 | 12 |
-| 32x32 | 2 | 26 | 16 |
-| 48x48 | 3 | 40 | 24 |
-| 64x64 | 4 | 56 | 32 |
-| 128x128 | 9 | 104 | 64 |
+| Canvas Size | Base Line | x-Height |
+| :--- | :--- | :--- |
+| 16x16 | 1 | 15 |
+| 24x24 | 2 | 22 |
+| 32x32 | 2 | 30 |
+| 48x48 | 3 | 43 |
+| 64x64 | 4 | 60 |
+| 128x128 | 9 | 113 |
 
 ### Exceptions <a id="icon-exceptions"></a>
 
@@ -130,6 +130,10 @@ To apply the edge highlight effect to your icon, draw a subtle, **1 pixel**, inn
 ![Edge highlight example in elementary OS Music icon](https://elementary.io/images/docs/human-interface-guidelines/icons/grid.svg)
 
 ### Drop Shadow <a id="drop-shadow"></a>
+
+{% hint style="warning" %}
+This section is deprecated, and will be removed in the future, following the resolution of [elementary/icons#1353](https://github.com/elementary/icons/issues/1353). New application icons should not use a drop shadow.
+{% endhint %}
 
 To draw the shadow, you'll start by drawing a rectangle. Then fill it with a linear gradient that is perpendicular to the bottom margin of the icon. The gradient has three stops, the first and last of which have zero opacity. Then this entire shape is set to **60% opacity**.
 
