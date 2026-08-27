@@ -28,6 +28,7 @@
   * [Notebook](widgets/ui-toolkit-elements/notebook.md)
   * [Toast](widgets/ui-toolkit-elements/toast.md)
 * [Containers](widgets/container-widgets.md)
+* [Lists](widgets/lists.md)
 
 ## Reference
 
