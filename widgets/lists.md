@@ -22,7 +22,6 @@ If you need to associate actions with the list (e.g. to add a new item) you shou
 
 ![A list inside a scrolled window with a frame and an action](https://elementary.io/images/docs/human-interface-guidelines/lists/frame-and-action.png)
 
-
 ## Adaptiveness
 If the list was placed in a scrollable window with a frame the scrollable window should be clamped. If it gets the CSS class `CARD` the list should be clamped.
 
