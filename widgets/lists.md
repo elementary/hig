@@ -11,18 +11,17 @@ a context menu, a label and a secondary description. Alternatively if you
 need custom content you can set your own widget as a child.
 
 ## Placement
-If the list is the only thing within its section (e.g. a sidebar or the entire window)
-it should be placed directly in the section.
+If the list is the only thing within its view (e.g. a sidebar or the entire window) it should be placed directly in the section.
 
 ![A list in a sidebar](https://elementary.io/images/docs/human-interface-guidelines/lists/settings-sidebar.png)
 
-If it sits alongside other content it should be placed
-inside a `Gtk.ScrolledWindow` with `has_frame = true` or it should
-**not** be placed inside a `Gtk.ScrolledWindow` and get the CSS style class
-`Granite.CssClass.CARD` instead. In the second case you have to make sure though
-that the parent view is scrollable.
-The theory behind this is that inset style always means the list scrolls and card style
-always means the parent view scrolls.
+If a view contains other content in a Scrolled Window, add the style class
+`Granite.CssClass.CARD` to the list and **do not** place it inside its own Scrolled Window.
+
+Otherwise, if the list is the only scrollable content in the view, it should be placed
+inside a Scrolled Window with `has_frame = true` .
+
+At a glance, we can see that a list with either no frame or a card style frame means the whole view scrolls. A list with an inset frame means the list itself scrolls.
 
 ![Two lists using the `CARD` style](https://elementary.io/images/docs/human-interface-guidelines/lists/card-style.png)
 
@@ -42,9 +41,6 @@ be clamped.
 
 ![Two lists using the `CARD` style being clamped](https://elementary.io/images/docs/human-interface-guidelines/lists/card-style.png)
 
-If it is the only thing in its section and therefore not within a
-frame the actual list should be clamped and, if it's used, the
-action bar should be clamped separately. You shouldn't
-clamp the whole toolbar because then the separator
-separating the list content from the action bar will also
-be clamped which looks weird.
+If a list is the only Toolbox content—and therefore not within a frame—clamp the list and any top or bottom bars in the Toolbox separately.
+
+Don't clamp the whole Toolbox. The separator separating the list content from the action bar will also be clamped.
