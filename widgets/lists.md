@@ -2,7 +2,7 @@
 Lists are great because they can serve many purposes and adapt well to any kind of screen size. They can be used for browsing content, navigation in a sidebar and much more.
 
 ## Rows
-For the rows in a list Granite provides `Granite.ListItem`. This makes sure your rows have consistent padding and size across all apps. It also provides an API for the most common usage of a row. That is an icon (I plan to implement that), a context menu, a label and a secondary description. Alternatively if you need custom content you can set your own widget as a child.
+For the rows in a list Granite provides `Granite.ListItem`. This makes sure your rows have consistent padding and size across all apps. It also provides an API for the most common usage of a row. That is a context menu, a label and a secondary description. Alternatively if you need custom content you can set your own widget as a child.
 
 ## Placement
 If the list is the only thing within its view (e.g. a sidebar or the entire window) it should be placed directly in the section.
