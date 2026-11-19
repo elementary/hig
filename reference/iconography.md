@@ -94,14 +94,14 @@ Keeping these lines in mind while designing, means you can place elements along 
 
 If you're designing a square-shaped icon, like the one for Terminal seen above, then consider using these common measurements \(in pixels\) for each icon:
 
-| Canvas Size | Base Line | x-Height | Mean Line Height |
-| :--- | :--- | :--- | :--- |
-| 16x16 | 1 | 14 | 8 |
-| 24x24 | 2 | 20 | 12 |
-| 32x32 | 2 | 26 | 16 |
-| 48x48 | 3 | 40 | 24 |
-| 64x64 | 4 | 56 | 32 |
-| 128x128 | 9 | 104 | 64 |
+| Canvas Size | Base Line | x-Height | Mean Line Height | Template|
+| :--- | :--- | :--- | :--- | :--- |
+| 16x16 | 1 | 14 | 8 | [16-template.svg](../.gitbook/assets/16-template.svg) |
+| 24x24 | 2 | 20 | 12 | [24-template.svg](../.gitbook/assets/24-template.svg) |
+| 32x32 | 2 | 26 | 16 | [32-template.svg](../.gitbook/assets/32-template.svg) |
+| 48x48 | 3 | 40 | 24 | [48-template.svg](../.gitbook/assets/48-template.svg) |
+| 64x64 | 4 | 56 | 32 | [64-template.svg](../.gitbook/assets/64-template.svg) |
+| 128x128 | 9 | 104 | 64 | [128-template.svg](../.gitbook/assets/128-template.svg) |
 
 ### Exceptions <a id="icon-exceptions"></a>
 
